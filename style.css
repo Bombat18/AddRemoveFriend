@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(231, 237, 242);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#poster {
+
+    background-color: white;
+
+    height: 310px;
+    width: 230px;
+    border-radius: 10px;
+    box-shadow: 1px 0.5px 2px rgb(195, 194, 194);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#poster img {
+    width: 229px;
+    height: 160px;
+    border-radius: 10px 10px 0px 0px;
+
+
+}
+
+button {
+    width: 90px;
+    height: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#addFriend {
+    background-color: #1d6ffd;
+    color: white;
+
+}
+div h2{
+    margin: 10px 0px 0px 0px;
+    font-family:cursive;
+    font-size: 22px;
+    
+}
+div h3{
+    margin: 17px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 0, 0);
+}
